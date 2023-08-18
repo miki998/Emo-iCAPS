@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Source the right version of FSL if you need to
+sourcedir=/media/miplab-nas2/Data2/Movies_Emo/Preprocessed_data/
+
+
+# Each line in the ALL_PARTICIPANTS file needs to be laid out as:
+# SUBJECT SESSION MOVIE IDX VOLUMES
+
+cat PARTICIPANTS | while read SUBJECT SESSION MOVIE MOVID VOLUMES; do
+	echo sub-${SUBJECT}_ses-${SESSION}_${MOVIE}
+
+	cd ${sourcedir}sub-${SUBJECT}/ses-${SESSION}/pp_sub-${SUBJECT}_ses-${SESSION}_${MOVIE}.feat/
+
+	#Apply inverse transformation parameters from example2highres_inv to mask with filtered_func_data.nii.gz as target using ApplyXFM
+
+	#From highres to functional
+
+	flirt -in TA_results/TA_Sep22/Thresholding/Alpha_5_95_Fraction_0DOT05/SignInnov.nii -ref reg/standard.nii.gz  -applyxfm -init reg/example_func2standard.mat -out TA_results/TA_Sep22/Thresholding/Alpha_5_95_Fraction_0DOT05/SignInnov_MNI.nii
+
+	flirt -in TA_results/TA_Sep22/Thresholding/Alpha_5_95_Fraction_0DOT05/mask_nonan.nii -ref reg/standard.nii.gz  -applyxfm -init reg/example_func2standard.mat -out TA_results/TA_Sep22/Thresholding/Alpha_5_95_Fraction_0DOT05/mask_nonan_MNI.nii
+
+	flirt -in TA_results/TA_Sep22/inputData/mask.nii.gz -ref reg/standard.nii.gz  -applyxfm -init reg/example_func2standard.mat -out TA_results/TA_Sep22/inputData/mask_MNI.nii.gz
+
+done
