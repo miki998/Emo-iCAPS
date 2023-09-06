@@ -22,16 +22,7 @@ param.ID = {'S01'};%'S01'}%,'S02','S03', missing 3 ses 4
   
 param.Ses = {'1','2','3','4','5'};%,},'1','2','3',
 
-param.Subjects = {'/sub-S13/ses-1/pp_sub-S13_ses-1_AfterTheRain.feat/', '/sub-S13/ses-1/pp_sub-S13_ses-1_Sintel.feat/', '/sub-S13/ses-2/pp_sub-S13_ses-2_Payload.feat/', '/sub-S13/ses-2/pp_sub-S13_ses-2_BigBuckBunny.feat/', '/sub-S13/ses-2/pp_sub-S13_ses-2_TearsOfSteel.feat/', '/sub-S13/ses-3/pp_sub-S13_ses-3_ToClaireFromSonny.feat/', '/sub-S13/ses-3/pp_sub-S13_ses-3_BetweenViewings.feat/', '/sub-S13/ses-4/pp_sub-S13_ses-4_FirstBite.feat/', '/sub-S13/ses-1/pp_sub-S13_ses-1_Rest.feat/', '/sub-S13/ses-3/pp_sub-S13_ses-3_Spaceman.feat/', '/sub-S13/ses-3/pp_sub-S13_ses-3_Chatter.feat/', '/sub-S13/ses-4/pp_sub-S13_ses-4_Superhero.feat/', '/sub-S13/ses-1/pp_sub-S13_ses-1_YouAgain.feat/', '/sub-S13/ses-4/pp_sub-S13_ses-4_TheSecretNumber.feat/', '/sub-S13/ses-1/pp_sub-S13_ses-1_LessonLearned.feat/'} 
-% param.Subjects = {'sub-S05/ses-1/pp_sub-S05_ses-1_BigBuckBunny.feat/' ,  'sub-S05/ses-1/pp_sub-S05_ses-1_Rest.feat'}
-
-% param.Subjects = {'/sub-S02/ses-1/pp_sub-S02_ses-1_Rest.feat/', '/sub-S02/ses-2/pp_sub-S02_ses-2_Chatter.feat/', '/sub-S02/ses-1/pp_sub-S02_ses-1_YouAgain.feat/', '/sub-S02/ses-2/pp_sub-S02_ses-2_BigBuckBunny.feat/', '/sub-S02/ses-3/pp_sub-S02_ses-3_LessonLearned.feat/', '/sub-S02/ses-2/pp_sub-S02_ses-2_TheSecretNumber.feat/', '/sub-S02/ses-3/pp_sub-S02_ses-3_BetweenViewings.feat/', '/sub-S02/ses-1/pp_sub-S02_ses-1_TearsOfSteel.feat/', '/sub-S02/ses-4/pp_sub-S02_ses-4_Spaceman.feat/', '/sub-S02/ses-4/pp_sub-S02_ses-4_Sintel.feat/', '/sub-S02/ses-1/pp_sub-S02_ses-1_AfterTheRain.feat/', '/sub-S02/ses-4/pp_sub-S02_ses-4_FirstBite.feat/', '/sub-S02/ses-4/pp_sub-S02_ses-4_ToClaireFromSonny.feat/', '/sub-S02/ses-3/pp_sub-S02_ses-3_Payload.feat/', '/sub-S02/ses-2/pp_sub-S02_ses-2_Superhero.feat/'}
-
-% param.Subjects = {'/sub-S03/ses-3/pp_sub-S03_ses-3_Sintel.feat/', '/sub-S03/ses-2/pp_sub-S03_ses-2_BetweenViewings.feat/', '/sub-S03/ses-1/pp_sub-S03_ses-1_Payload.feat/', '/sub-S03/ses-2/pp_sub-S03_ses-2_TheSecretNumber.feat/', '/sub-S03/ses-1/pp_sub-S03_ses-1_Rest.feat/', '/sub-S03/ses-2/pp_sub-S03_ses-2_Superhero.feat/', '/sub-S03/ses-3/pp_sub-S03_ses-3_TearsOfSteel.feat/', '/sub-S03/ses-4/pp_sub-S03_ses-4_ToClaireFromSonny.feat/', '/sub-S03/ses-4/pp_sub-S03_ses-4_BigBuckBunny.feat/', '/sub-S03/ses-3/pp_sub-S03_ses-3_AfterTheRain.feat/', '/sub-S03/ses-2/pp_sub-S03_ses-2_LessonLearned.feat/', '/sub-S03/ses-1/pp_sub-S03_ses-1_Spaceman.feat/', '/sub-S03/ses-4/pp_sub-S03_ses-4_Chatter.feat/', '/sub-S03/ses-3/pp_sub-S03_ses-3_FirstBite.feat/', '/sub-S03/ses-4/pp_sub-S03_ses-4_YouAgain.feat/'}
-
-
-% param.Subjects = {'/sub-S04/ses-2/pp_sub-S04_ses-2_Spaceman.feat/', '/sub-S04/ses-3/pp_sub-S04_ses-3_LessonLearned.feat/', '/sub-S04/ses-3/pp_sub-S04_ses-3_AfterTheRain.feat/', '/sub-S04/ses-4/pp_sub-S04_ses-4_FirstBite.feat/', '/sub-S04/ses-1/pp_sub-S04_ses-1_Rest.feat/', '/sub-S04/ses-3/pp_sub-S04_ses-3_Chatter.feat/', '/sub-S04/ses-2/pp_sub-S04_ses-2_YouAgain.feat/', '/sub-S04/ses-2/pp_sub-S04_ses-2_ToClaireFromSonny.feat/', '/sub-S04/ses-1/pp_sub-S04_ses-1_TearsOfSteel.feat/', '/sub-S04/ses-2/pp_sub-S04_ses-2_Sintel.feat/', '/sub-S04/ses-4/pp_sub-S04_ses-4_Superhero.feat/', '/sub-S04/ses-4/pp_sub-S04_ses-4_Payload.feat/', '/sub-S04/ses-3/pp_sub-S04_ses-3_BigBuckBunny.feat/', '/sub-S04/ses-1/pp_sub-S04_ses-1_TheSecretNumber.feat/', '/sub-S04/ses-1/pp_sub-S04_ses-1_BetweenViewings.feat/'}
-
+param.Subjects = {'/sub-S17/ses-2/pp_sub-S17_ses-2_LessonLearned.feat/', '/sub-S17/ses-4/pp_sub-S17_ses-4_Sintel.feat/', '/sub-S17/ses-2/pp_sub-S17_ses-2_TheSecretNumber.feat/', '/sub-S17/ses-1/pp_sub-S17_ses-1_Spaceman.feat/', '/sub-S17/ses-4/pp_sub-S17_ses-4_ToClaireFromSonny.feat/', '/sub-S17/ses-3/pp_sub-S17_ses-3_Superhero.feat/', '/sub-S17/ses-4/pp_sub-S17_ses-4_Payload.feat/', '/sub-S17/ses-2/pp_sub-S17_ses-2_AfterTheRain.feat/', '/sub-S17/ses-1/pp_sub-S17_ses-1_Chatter.feat/', '/sub-S17/ses-1/pp_sub-S17_ses-1_Rest.feat/', '/sub-S17/ses-3/pp_sub-S17_ses-3_FirstBite.feat/', '/sub-S17/ses-1/pp_sub-S17_ses-1_YouAgain.feat/', '/sub-S17/ses-4/pp_sub-S17_ses-4_BigBuckBunny.feat/', '/sub-S17/ses-2/pp_sub-S17_ses-2_TearsOfSteel.feat/', '/sub-S17/ses-3/pp_sub-S17_ses-3_BetweenViewings.feat/'}
 
 % Number of subjects considered
 param.n_subjects = length(param.Subjects);
@@ -44,7 +35,7 @@ param.title = 'iCAPS_Emo';
 % name of the iCAPs output for this data
 % if only a subset of subjects should be included in the clustering, this
 % can be useful to save those different runs in different folders
-param.data_title = [param.title '_Movies_sub-S13'];
+param.data_title = [param.title '_Movies_sub-S17'];
 
 
 % information about which TA data should be used for clustering:

@@ -39,23 +39,6 @@ FILM2DURATION = {'AfterTheRain': 496,
                  'ToClaireFromSonny': 402, 
                  'YouAgain': 798}
 
-ANNOT_TR_FILM = {'Rest': 460,
-                 'ToClaireFromSonny': 464, 
-                 'Chatter': 467, 
-                 'BigBuckBunny': 536,
-                 'AfterTheRain': 555,
-                 'TearsOfSteel': 608,
-                 'FirstBite': 615,
-                 'LessonLearned': 668,
-                 'Sintel': 710,
-                 'TheSecretNumber': 744,
-                 'YouAgain': 759,
-                 'Spaceman': 771,
-                 'BetweenViewing': 777,
-                 'Payload': 930,
-                 'Superhero': 946
-                 }
-
 # trim the washimg time for movies before and after
 WASH  = 93.9/ TR # duration in seconds for wash is 93.9 sec
 ONSET = 6 / TR # duration of onset is assumed to be 6 sec

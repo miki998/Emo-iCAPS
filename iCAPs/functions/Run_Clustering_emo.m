@@ -136,7 +136,6 @@ function [] = Run_Clustering_emo(param)
         save(fullfile(param.outDir_main,'subject_labels.mat'),'subject_labels','-v7.3');
         save(fullfile(param.outDir_main,'time_labels.mat'),'time_labels','-v7.3');
         save(fullfile(param.outDir_main,'final_mask.mat'),'final_mask','-v7.3');
-        display(size(final_mask));
 	save4Dnii(param.outDir_main,'','final_mask',final_mask,fullfile(resultsPath{1},'Thresholding',param.thresh_title,'mask_nonan_MNI.nii'));
     else
         WriteInformation(fid,'Aggregating already done, loading aggregated data...');
