@@ -32,7 +32,7 @@ param.title = 'iCAPS_Emo';
 % name of the iCAPs output for this data
 % if only a subset of subjects should be included in the clustering, this
 % can be useful to save those different runs in different folders
-param.data_title = [param.title '_Movies_sub-S19'];
+param.data_title = [param.title '_Movies_sub-S32'];
 
 
 % information about which TA data should be used for regression:

@@ -6,31 +6,33 @@ addpath('');
 % Paths defining
 
 % Path for SignInnov files and mask_nonan
-% paths = {'/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-3/pp_sub-S19_ses-3_ToClaireFromSonny.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-4/pp_sub-S19_ses-4_Superhero.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-1/pp_sub-S19_ses-1_YouAgain.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-1/pp_sub-S19_ses-1_AfterTheRain.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-2/pp_sub-S19_ses-2_TearsOfSteel.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-3/pp_sub-S19_ses-3_LessonLearned.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-3/pp_sub-S19_ses-3_Payload.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-4/pp_sub-S19_ses-4_Spaceman.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-1/pp_sub-S19_ses-1_Rest.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-2/pp_sub-S19_ses-2_Chatter.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-2/pp_sub-S19_ses-2_FirstBite.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-1/pp_sub-S19_ses-1_BetweenViewings.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-4/pp_sub-S19_ses-4_Sintel.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-2/pp_sub-S19_ses-2_TheSecretNumber.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-2/pp_sub-S19_ses-2_BigBuckBunny.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/'}
+paths = {'/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-4/pp_sub-S32_ses-4_Superhero.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-2/pp_sub-S32_ses-2_AfterTheRain.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-3/pp_sub-S32_ses-3_Payload.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-3/pp_sub-S32_ses-3_LessonLearned.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-2/pp_sub-S32_ses-2_TearsOfSteel.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-2/pp_sub-S32_ses-2_Spaceman.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-3/pp_sub-S32_ses-3_Sintel.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-1/pp_sub-S32_ses-1_YouAgain.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-2/pp_sub-S32_ses-2_FirstBite.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-4/pp_sub-S32_ses-4_TheSecretNumber.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-1/pp_sub-S32_ses-1_Rest.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-4/pp_sub-S32_ses-4_BigBuckBunny.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-3/pp_sub-S32_ses-3_Chatter.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-1/pp_sub-S32_ses-1_BetweenViewings.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-1/pp_sub-S32_ses-1_ToClaireFromSonny.feat/TA_results/iCAPS_Emo/Thresholding/Alpha_5_95_Fraction_0DOT05/'}
+
 
 % Path for Activity_inducing.nii
-paths = {'/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-1/pp_sub-S19_ses-1_YouAgain.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-3/pp_sub-S19_ses-3_LessonLearned.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-1/pp_sub-S19_ses-1_AfterTheRain.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-1/pp_sub-S19_ses-1_Rest.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-3/pp_sub-S19_ses-3_Payload.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-1/pp_sub-S19_ses-1_BetweenViewings.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-2/pp_sub-S19_ses-2_TheSecretNumber.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-2/pp_sub-S19_ses-2_FirstBite.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-2/pp_sub-S19_ses-2_Chatter.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-2/pp_sub-S19_ses-2_BigBuckBunny.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-3/pp_sub-S19_ses-3_ToClaireFromSonny.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-4/pp_sub-S19_ses-4_Superhero.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-4/pp_sub-S19_ses-4_Sintel.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-4/pp_sub-S19_ses-4_Spaceman.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S19/ses-2/pp_sub-S19_ses-2_TearsOfSteel.feat/TA_results/iCAPS_Emo/TotalActivation/'}
+% paths = {'/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-1/pp_sub-S32_ses-1_Rest.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-3/pp_sub-S32_ses-3_LessonLearned.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-1/pp_sub-S32_ses-1_BetweenViewings.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-1/pp_sub-S32_ses-1_YouAgain.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-2/pp_sub-S32_ses-2_TearsOfSteel.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-2/pp_sub-S32_ses-2_AfterTheRain.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-2/pp_sub-S32_ses-2_FirstBite.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-2/pp_sub-S32_ses-2_Spaceman.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-1/pp_sub-S32_ses-1_ToClaireFromSonny.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-4/pp_sub-S32_ses-4_BigBuckBunny.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-4/pp_sub-S32_ses-4_TheSecretNumber.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-3/pp_sub-S32_ses-3_Sintel.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-3/pp_sub-S32_ses-3_Payload.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-3/pp_sub-S32_ses-3_Chatter.feat/TA_results/iCAPS_Emo/TotalActivation/', '/media/miplab-nas2/Data2/Movies_Emo/Michael/DATA/fmri_tcs/sub-S32/ses-4/pp_sub-S32_ses-4_Superhero.feat/TA_results/iCAPS_Emo/TotalActivation/'}
+
 
 n_fold = length(paths);
 
-modality = 'Activity_inducing';
+modality = 'mask_nonan';
 
 for k=1:n_fold
 	folderPath = paths{k};
 	fPath1 = fullfile(folderPath, strcat(modality, '_MNI.nii.gz'));
 	fPath2 = fullfile(folderPath, strcat(modality, '_MNI.nii'));
 	outPath = fullfile(folderPath, strcat(modality, '_MNI'));
-	[Activity_inducing, tmp_param] = nii2matfunc(fPath1, fPath2, folderPath);
+	[mask_nonan, tmp_param] = nii2matfunc(fPath1, fPath2, folderPath);
 	
-	% paramPath = fullfile(folderPath, 'param.mat');
-	% newparamPath = fullfile(folderPath, 'param_MNI.mat');
- 	% load(paramPath);
-	% param.mask = logical(tmp_param.mask)';
-	% b = tmp_param.mask;
+	paramPath = fullfile(folderPath, 'param.mat');
+	newparamPath = fullfile(folderPath, 'param_MNI.mat');
+ 	load(paramPath);
+	param.mask = logical(tmp_param.mask)';
+	b = tmp_param.mask;
 	% b(isnan(b)) = 0;
 	% b = fillmissing(tmp_param.mask, 'constant', 0)
- 	% param.mask_nonan = logical(b);
-	% param.mask2_nonan = mask_nonan;	
+ 	param.mask_nonan = logical(b);
+	param.mask2_nonan = mask_nonan;	
 	% load(fullfile(folderPath, 'SignInnov_MNI.mat'));
 	% tmp = SignInnov;
 	% n_vol = size(tmp,1);
@@ -39,9 +41,9 @@ for k=1:n_fold
 	% 	SignInnov(t,:) = tmp(t,param.mask_nonan);
 	% end
 	% save(fullfile(folderPath, 'SignInnov_MNI.mat'), 'SignInnov', '-v7.3');
-	% save(newparamPath, 'param', '-v7.3');
+	save(newparamPath, 'param', '-v7.3');
 	
-	save(outPath, 'Activity_inducing','-v7.3');
+	% save(outPath, 'Activity_inducing','-v7.3');
 	% save(outPath, 'SignInnov', '-v7.3');
 end
 
